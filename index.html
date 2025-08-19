@@ -1,83 +1,90 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>My Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">自己紹介</a></li>
-                <li><a href="#works">制作物</a></li>
-                <li><a href="#skills">スキル</a></li>
-            </ul>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">自己紹介</a></li>
+                    <li><a href="#works">制作物</a></li>
+                    <li><a href="#skills">スキル</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section id="about">
-        <h2>自己紹介</h2>
-        <p>
-            こんにちは、職業訓練でプログラミングについて学習してきたものです。<br>
-            このサイトは自分の学習成果のポートフォリオになります。
-        </p>
-    </section>
+        <section id="about">
+            <h2>自己紹介</h2>
+            <p>
+                こんにちは、職業訓練でプログラミングについて学習してきたものです。<br>
+                このサイトは自分の学習成果のポートフォリオになります。
+            </p>
+        </section>
 
-    <section class="works" id="works">
-        <h2>制作実績</h2>
+        <section class="works" id="works">
+            <h2>制作実績</h2>
 
-        <!-- ホームページ制作グループ -->
-        <div class="work-group">
-            <h3>HP制作</h3>
+            <!-- ホームページ制作グループ -->
+            <div class="work-group">
+                <h3>HP制作</h3>
 
-            <div class="work-item">
-                <h4>Café Lueur（カフェ・リュール）</h4>
-                <p>架空の飲食店「Café Lueur」のWebサイトを制作しました。職業訓練で学んだHTML / CSS / JavaScriptを活かし、モバイル対応のレスポンシブデザインとシンプルなUIを意識しています。</p>
-                <p><a href="https://00960.github.io/cafe-lueur/" target="_blank">🔗 サイトを見る</a></p>
+                <div class="work-item">
+                    <h4>Café Lueur（カフェ・リュール）</h4>
+                    <p>架空の飲食店「Café Lueur」のWebサイトを制作しました。カフェらしい落ち着いた雰囲気を表現するために配色とタイポグラフィを工夫し、モバイル対応のレスポンシブデザインでスマホでも快適に閲覧できるようにしました。</p>
+                    <p><a href="https://00960.github.io/cafe-lueur/" target="_blank">🔗 サイトを見る</a></p>
+                </div>
+
+                <div class="work-item">
+                    <h4>HOTEL IMPERIAL RESORT TOKYO（結婚式場）</h4>
+                    <p>架空の結婚式場「HOTEL IMPERIAL RESORT TOKYO」のウェディングサイトを制作しました。大きな写真と余白を活かして上質感を演出し、PC・スマホどちらでも見やすいようレスポンシブ対応を行いました。</p>
+                    <p><a href="https://00960.github.io/wedding" target="_blank">🔗 サイトを見る</a></p>
+                </div>
+
+                <div class="work-item">
+                    <h4>CardQuest（カードショップサイト）</h4>
+                    <p>架空のカードショップ「CardQuest」のWebサイトを制作しました。ポケモンカードや遊戯王などのトレーディングカードを取り扱う店舗を想定し、ホーム・店舗紹介・商品ページ・お問い合わせの4ページ構成にしました。</p>
+                    <p>JavaScriptを用いて商品スライダーやハンバーガーメニューを実装し、スマートフォンからでも直感的に操作できるように設計。背景画像やデザインもショップの雰囲気に合うよう工夫しています。</p>
+                    <p><a href="https://00960.github.io/cardquest/" target="_blank">🔗 サイトを見る</a></p>
+                </div>
             </div>
 
-            <div class="work-item">
-                <h4>HOTEL IMPERIAL RESORT TOKYO（結婚式場）</h4>
-                <p>架空の結婚式場「HOTEL IMPERIAL RESORT TOKYO」のウェディングサイトを制作しました。HTMLとCSSを使用し、ホテルの上質な雰囲気を表現。レスポンシブ対応でスマホやタブレットでも快適に閲覧可能です。</p>
-                <p><a href="https://00960.github.io/wedding" target="_blank">🔗 サイトを見る</a></p>
+            <!-- Webアプリ・システム制作グループ -->
+            <div class="work-group">
+                <h3>Webアプリ・システム制作</h3>
+
+                <div class="work-item">
+                    <h4>ラーメンレビューアプリ</h4>
+                    <p>ChatGPTなどのAIを活用しながら、SQLiteとPHPで構築したWebアプリです。ユーザー登録・ログイン、レビュー投稿・編集・削除機能を自作のバックエンド処理で実装し、動的なWebアプリ開発を実践しました。</p>
+                    <p><a href="https://y00960.chobi.net/ramen/" target="_blank">🔗 サイトを見る</a></p>
+                    <p>テスト用　ユーザー名： test.user00　、パスワード： 2947</p>
+                </div>
+
+                <div class="work-item">
+                    <h4>タイピング記録管理システム</h4>
+                    <p>職業訓練中に作成したログイン機能付きタイピング記録管理システムです。PHPとMySQLを使用し、ユーザーごとの記録をデータベースで管理。1日1回タイピング文字数を登録し、過去の成績や最小・最大記録をグラフとともに確認できるようにしました。</p>
+                    <p><a href="https://y00960.chobi.net/typing_system/" target="_blank">🔗 サイトを見る</a></p>
+                    <p>テスト用　ユーザー名： test　、パスワード： 0612</p>
+                </div>
             </div>
-        </div>
+        </section>
+        
+        <section id="skills">
+            <h2>スキル</h2>
+                <ul>
+                    <li>HTML/CSS</li>
+                    <li>JavaScript</li>
+                    <li>PHP（勉強中）</li>
+                    <li>Python（勉強中）</li>
+                </ul>
+        </section>
 
-        <!-- Webアプリ・システム制作グループ -->
-        <div class="work-group">
-            <h3>Webアプリ・システム制作</h3>
-
-            <div class="work-item">
-                <h4>ラーメンレビューアプリ</h4>
-                <p>このラーメンレビューアプリは、ChatGPTなどのAIを活用しながら、SQLiteとPHPで構築したWebアプリです。ユーザー登録・ログイン、レビュー投稿・編集・削除機能を備えています。</p>
-                <p><a href="https://y00960.chobi.net/ramen/" target="_blank">🔗 サイトを見る</a></p>
-                <p>テスト用　ユーザー名： test.user00　、パスワード： 2947</p>
-            </div>
-
-            <div class="work-item">
-                <h4>タイピング記録管理システム</h4>
-                <p>職業訓練中に作成したログイン機能付きタイピング記録管理システムです。PHPとMySQLを使用し、ユーザーが1日1回タイピング文字数を記録、過去の成績や最小・最大記録を確認できます。</p>
-                <p><a href="https://y00960.chobi.net/typing_system/" target="_blank">🔗 サイトを見る</a></p>
-                <p>テスト用　ユーザー名： test　、パスワード： 0612</p>
-            </div>
-        </div>
-    </section>
-    
-    <section id="skills">
-        <h2>スキル</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>PHP（勉強中）</li>
-                <li>Python（勉強中）</li>
-            </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 My Portfolio</p>
-    </footer>
-</body>
+        <footer>
+            <p>&copy; 2025 My Portfolio</p>
+        </footer>
+    </body>
 </html>
